@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ====== Start Default ======= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-black: #000;
+    --color-white: #fff;
+    --color-dark-blue: #004687;
+    --color-light-blue: #3cc0f0;
+}
+
+
+/* start scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #004687;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #004687;
+}
+
+/* end scrollbar */
+
+
+/* start typography */
+@font-face {
+    font-family: TrajanPro;
+    src: url('../fonts/TrajanPro-Regular.otf');
+  }
+  h1,h2{
+    font-family: TrajanPro;
+  }
+  .h1{
+    font-size: 70px;
+    font-weight: bold;
+  }
+  .h2{
+    font-size: 43px;
+    font-weight: bold;
+  }
+  .h3{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* end typography */
+
+/* start components */
+.btn-common-style {
+    border: none;
+    background: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #3cc0f0;
+    font-size: 20px;
+    border-radius: 4px;
+}
+/* end components */
+
+/* start form */
+.wpcf7 form.invalid .wpcf7-response-output {
+    border: none;
+}
+textarea{
+    height: 100px;
+    resize: none;
+}
+/* end form */
+
+/* ====== end Default ======= */
+
+/* start header */
+.header{
+    position: absolute;
+}
+
+
+/* end header */
+
+/* start footer*/
+.footer{
+  /*background: url(../img/footer-bg-img.png);*/
+    width: 100% !important;
+    background-repeat: repeat;
+    /*background-size: cover;*/
+    background: #eaf4fd;
+}
+.footer-container{
+    /*padding-top: 9rem;*/
+    position: relative;
+}
+.footer-col-2, .footer-col-3{
+    padding-left: 10rem;
+    padding-top: 4rem;
+}
+
+.footer .h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer p {
+    font-size: 14px;
+    font-weight: 600;
+}
+.footer ul {
+    padding-left: 5px;
+    list-style: none;
+    text-decoration: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-black)
+}
+.footer-container::before {
+    content: "";
+    background: #3cc0f0;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    height: 200px;
+}
+
+@media(max-width:768px){
+    .footer-col-2, .footer-col-3{
+        padding-left: 0.8rem;
+        padding-top: 0rem;
+
+    }
+}
+@media(max-width:767px){
+    .footer-container{
+        text-align: center;
+    }
+}
+/* end footer*/

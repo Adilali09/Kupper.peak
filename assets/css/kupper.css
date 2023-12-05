@@ -1,0 +1,499 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: TrajanPro;
+    src: url('../fonts/TrajanPro-Regular.otf')
+}
+
+.homepage-kupper {
+    position: absolute;
+    z-index: 9999;
+    background-color: transparent;
+    width: 100%;
+}
+
+
+
+
+.mountain-water {
+    width: 100%;
+    height: 100%;
+}
+
+.mountain-heading h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mountain-headingcommon h1{
+    font-family: TrajanPro BOLD;
+    font-size: 76px;
+    font-weight: bold;
+    line-height: 3.50rem;
+}
+
+.mountain-headingcommon{
+    padding-top: 10rem;
+}
+
+
+.mountain-heading h2 h1 h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.bottol img {
+    padding-top: 13rem;
+    margin-left: -24px;
+}
+
+
+.nav-tag {
+    justify-content: end;
+}
+
+
+
+/* our sources section start */
+.mountain-kupper h1 {
+    font-family: TrajanPro BOLD;
+    font-size: 50px;
+    font-weight: bold;
+    color: #004687;
+}
+
+.mountain-kupper h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.mountain-para {
+    font-family: 'Montserrat' light, sans-serif;
+    font-weight: 549;
+    line-height: 25px;
+    padding-top: 1rem;
+}
+
+.show-md {
+    display: none;
+}
+
+.md-view {
+    display: none;
+}
+
+/* .mountain-kupper{
+    margin-top: 8rem;
+}  */
+
+
+
+/* our product css start */
+.our-product h1 {
+    font-family: TrajanPro BOLD;
+    font-weight: bold;
+    color: #004687;
+}
+
+/* our product css end */
+.bottle-product {
+    display: flex;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.botle.caption h3 {
+    font-family: 'Montserrat' bold, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.botle.caption p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    FONT-SIZE: 16px;
+    line-height: 1px;
+    font-family: 'Montserrat' bold, sans-serif;
+}
+
+#products .owl-item img {
+    margin: auto;
+    width: 50%;
+}
+
+#products .caption {
+    text-align: center;
+}
+
+.unorder.list {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.natural-headig h1 {
+    font-family: TrajanPro BOLD;
+    font-size: 45px;
+    font-weight: bold;
+    color: #004687;
+}
+
+.composition-heading h1 {
+    font-family: TrajanPro BOLD;
+    font-size: 40px;
+    font-weight: bold;
+    color: #004687;
+}
+
+.composition-heading h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.alkaline-heading h1 {
+    line-height: 2rem;
+    font-family: TrajanPro BOLD;
+    color: white;
+}
+
+.alkaline-water p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    vertical-align: middle;
+}
+
+.sprake-bg {
+    background-image: url(../img/Kupper/sprak-bg.png);
+    height: 700px;
+}
+
+.sprakling-heading h1 {
+    font-family: TrajanPro BOLD;
+    line-height: 3rem;
+    color: #004687;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.sprakling-h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.sprakling-paragrph {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* @media (max-width: 768px) {
+    .alka-img {
+        display: none;
+    }
+
+    .alkaline-water p {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        vertical-align: middle;
+        text-align: center;
+        padding-top: 3rem;
+    }
+     .md-view{
+        display: block;
+       }
+       .lg-view{
+        display: none;
+       }
+} */
+
+
+
+/* @media (max-width: 768px) {
+    .lg-view{
+        display: none;
+       }
+    .sprake-bg {
+        background-image: url(../img/Kupper/sprak-bg.png);
+        height: 500px;
+        background-size: cover;
+    }
+} */
+
+.card-img-group {
+    background-color: #fff;
+    width: 330px;
+    height: 350px;
+    margin: auto;
+    border-radius: 35px;
+    padding: 1rem;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+img.img-fluid.woman.card-border-img {
+    width: 80px !important;
+    border: 2px solid aqua;
+    border-radius: 50%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    justify-content: end;
+}
+
+.card-border {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.card-heading h1 {
+    font-family: TrajanPro BOLD;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    /* padding-left: 3rem; */
+}
+
+#review-slider .owl-item img {
+    display: block;
+    width: auto;
+}
+
+/* #review-slider.owl-carousel.owl-loaded{
+    padding-left: 4rem;
+} */
+
+/* @media (max-width: 768px){
+    .card-img-group {
+        background-color: #fff;
+        width: 330px;
+        height: 350px;
+        margin: auto;
+        border-radius: 35px;
+        padding: 1rem;
+    }
+} */
+
+.business-para-2 p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 6px;
+}
+
+.business-heading {
+    font-family: TrajanPro BOLD;
+    font-size: 45px;
+    color: #004687;
+}
+
+.BUSINESS-MODEL {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.BUSINESS-PARA p {
+    font-family: 'Montserrat' 'light', sans-serif;
+    font-size: 15px;
+}
+
+.co-brandheading h1 {
+    font-family: TrajanPro BOLD;
+    font-size: 45px;
+    color: #004687;
+}
+
+
+@media (max-width: 768px) {
+
+    .mountain-headingcommon{
+       text-align: center;
+       padding-top: 5rem;
+       padding-bottom: 5rem;
+    }
+
+    .mountain-headingcommon h1{
+        font-size: 100px;
+        line-height:5.5rem;
+        color: #004687;
+        text-align: center;
+    }
+
+    .homepage-kupper {
+        position: relative;
+        background-color: #fff;
+    }
+
+    .nav-tag {
+        display: flex;
+        justify-content: initial !important;
+    }
+
+
+
+    .bottol img {
+        padding-top: 0;
+        padding-left: 5rem;
+    }
+
+    .common {
+        text-align: center;
+        margin-top: 0px;
+        /* margin-left: 0px; */
+        background-repeat: no-repeat;
+    }
+
+    .mountain-water {
+        background-repeat: no-repeat;
+    }
+
+    .show-lg {
+        display: none;
+    }
+
+    .show-md {
+        display: block;
+    }
+
+    .mountain-kupper {
+        font-family: 'Montserrat' bold, sans-serif;
+
+    }
+
+    .mountain-para {
+        font-family: 'Montserrat' light, sans-serif;
+        font-weight: 549;
+        line-height: 25px;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+    .alka-img {
+        display: none;
+    }
+
+    .alkaline-water p {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        vertical-align: middle;
+        text-align: center;
+        padding-top: 3rem;
+    }
+
+    .md-view {
+        display: block;
+    }
+
+    .lg-view {
+        display: none;
+    }
+
+    .sprake-bg {
+        background-image: url(../img/Kupper/sprak-bg.png);
+        height: 500px;
+        background-size: cover;
+    }
+
+    .card-img-group {
+        background-color: #fff;
+        width: 316px;
+        height: 350px;
+        margin: auto;
+        border-radius: 35px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .mountain-headingcommon h1{
+        font-size: 51px;
+        line-height:3.5rem;
+        text-align: center;
+    }
+    .mountain-headingcommon h4{
+        font-size: 18px;
+    }
+    .mountain-headingcommon {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .bottol img {
+        padding-top: 0;
+        padding-left: 0px;
+    }
+
+    .alkaline-water p {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        vertical-align: middle;
+        text-align: center;
+        padding-top: 0rem;
+    }
+
+    .composition-heading h5 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 20px;
+    }
+
+    .water-benefit {
+        padding-top: 1rem;
+    }
+
+    .sprakling-heading h1 {
+        font-family: TrajanPro BOLD;
+        line-height: 30px;
+        color: #004687;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .card-heading h1 {
+        font-family: TrajanPro BOLD;
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+
+    .card-img-group {
+        background-color: #fff;
+        width: 267px;
+        height: 350px;
+        margin: auto;
+        border-radius: 35px;
+        padding: 1rem;
+    }
+
+    .mountain-heading h1 {
+        font-family: TrajanPro BOLD;
+        font-size: 51px;
+        font-weight: bold;
+        line-height: 3.50rem;
+    }
+}

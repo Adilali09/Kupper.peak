@@ -1,0 +1,311 @@
+@font-face {
+    font-family: TrajanPro;
+    src: url('../fonts/TrajanPro-Regular.otf')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+/* start header */
+.header {
+    position: absolute;
+    z-index: 9999;
+    background-color: transparent;
+    width: 100%;
+}
+
+img.img-fluid.header-logo {
+    width: 89px;
+}
+
+@media(max-width: 768px) {
+    .header {
+        position: relative;
+        background-color: #fff;
+    }
+
+    .header-logo {
+        width: 70px;
+        font-weight: bold;
+        color: black;
+    }
+
+}
+
+@media(min-width: 767px) {}
+
+.navbar-nav {
+    display: flex;
+    gap: 5rem;
+}
+
+/* end header */
+.home-about {
+    width: 90px;
+    height: 782px;
+}
+
+.bar {
+    display: flex;
+    margin-left: 4rem;
+    gap: 9rem;
+    text-decoration: none;
+}
+
+
+.heading {
+    color: #004687;
+    font-weight: bold;
+    font-family: TrajanPro;
+}
+
+.para {
+    color: #0c0c0c;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.row {
+    align-items: center;
+}
+
+
+/* .colom {
+   
+} */
+.colum {
+    display: flex;
+    background-color: #004687;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.number {
+    font-size: 93.16px;
+    font-weight: bold;
+}
+
+
+.colom {
+    color: white;
+}
+
+.product-about {
+    padding-top: 7px;
+}
+
+
+
+.section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.brand-bar {
+    background-color: #6cd0f4;
+    padding-top: 2rem;
+    border-top-right-radius: 12rem;
+    border-bottom-left-radius: 12rem;
+}
+
+
+.brand-bar {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
+}
+
+
+@media(max-width: 768px) {
+    .number {
+        font-size: 80px;
+        font-weight: bold;
+    }
+}
+
+
+@media(max-width: 767px) {
+    .number {
+        font-size: 38px;
+        font-weight: 600;
+    }
+}
+
+.fot-haeding {
+    color: white;
+    text-align: center;
+    font-family: TrajanPro;
+    font-size: 3rem;
+}
+
+.paragrph {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h2-heading {
+    color: #6cd0f4;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.50rem;
+}
+
+.h5-heading {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row {
+    justify-content: space-evenly;
+}
+
+
+.footer-bottom {
+    color: white;
+    text-align: center;
+    background-color: #004687;
+    /* padding-top: 0.8rem; */
+}
+
+.h5-text {
+    line-height: 1.50rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.foot-paragraphp {
+    font-family: 'Montserrat light', sans-serif;
+}
+
+.h6-heading {
+    font-family: 'Montserrat bold', sans-serif;
+}
+
+.nav-link {
+    font-family: 'Montserrat bold', sans-serif;
+}
+
+
+@media(max-width: 768px) {
+    .navbar-nav {
+        gap: 20px;
+        justify-content: initial !important;
+
+    }
+}
+
+@media(min-width: 767px) {
+    .navbar-nav {
+        gap: 20px;
+
+    }
+}
+
+.h6-heading {
+    font-family: 'Montserrat bold', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .bar a{
+    text-decoration: none;
+    color: black;
+} */
+/* @media(min-width: 768px){
+    .bar p{
+        display: flex;
+        margin-left: 4rem;
+        gap: 9rem;
+        text-decoration: none;
+    }
+} */
+
+/* .nav-tag{
+        display: flex;
+    margin-left: 4rem;
+    gap: 4rem;
+    text-decoration: none;
+} */
+/* nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media(max-width:952px){
+    label.logo{
+        font-size: 30px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media(max-width:858px){
+   .checkbtn{
+    display: block;
+   }
+   ul{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+   }
+   nav ul li{
+    display: block  ;
+   }
+}
+@media(max-width:768px){
+.menu{
+    display: none;
+}
+} */
